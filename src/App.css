@@ -1,0 +1,218 @@
+p{
+  display: inline;
+}
+
+#application{
+  width:100%;
+  height: 100%;
+  background-color:#FFF;
+  padding: 24px 16px 29px 16px;
+  overflow-x: hidden;
+}
+
+#heading{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+  gap:74px;
+}
+
+#head{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #1C202B;
+}
+
+#notificationsNum{
+  margin-left: 9px;
+  border-radius: 6px;
+  width: 32px;
+  background-color:#0A327B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#num{
+  color:#FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#allRead{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color:#5E6778;
+}
+
+#allRead:hover{
+  color: #0A327B;
+  cursor: pointer;
+}
+
+#notifications{
+  margin-top: 14px;
+}
+
+.singleNotification{
+  display: flex;
+  gap:13px;
+  background-color:#FFF;
+  padding:16px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.notificationMain{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap:13px;
+}
+
+.notificationHead{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.descriptionText{
+  display: flex;
+}
+
+.profile{
+  width:39px;
+  height:39px;
+}
+
+.name{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #1C202B;
+}
+
+.description{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color:#5E6778;
+}
+
+.topic{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color:#5E6778;
+}
+
+.topic:hover{
+  color: #0A327B;
+  cursor: pointer;
+}
+
+.isSeen{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #F65552;
+  margin-left: 6px;
+}
+
+.time{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color:#939CAD;
+  margin-top: 3px;
+}
+
+.MainImg{
+  width:39px;
+  height: 39px;
+  display: none;
+}
+
+.MainImg:hover{
+  cursor: pointer;
+}
+
+.messageBox{
+  width: 100%;
+  border: 1px solid #DDE7EE;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.messageBox:hover{
+  background-color: #E5EFFA;
+  cursor: pointer;
+}
+
+
+.message{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color:#5E6778;
+}
+
+@media (min-width:1000px) {
+
+  #application{
+    width:730px;
+    height: 839px;
+    background-color:#FFF;
+    padding: 24px 16px 29px 16px;
+    overflow-x: hidden;
+    border-radius: 15px;
+  }
+
+  #head{
+    font-size: 24px;
+  }
+
+  #allRead{
+    font-size: 16px;
+  }
+
+  .name{
+    font-size: 16px;
+  }
+
+  .description{
+    font-size: 16px;
+  }
+
+  .topic{
+    font-size: 16px;
+    font-weight: 800;
+  }
+
+  
+
+  .messageBox{
+    width: 100%;
+    padding: 20px;
+  }
+
+  .message{
+    font-size: 16px;
+  }
+
+}
